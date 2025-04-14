@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7f6302c-7cb7-4cdf-997d-2924646b0a26" name="Changes" comment="Qvabbyte Development Start">
-      <change afterPath="$PROJECT_DIR$/ErtiChayra.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tokens.env" afterDir="false" />
+    <list default="true" id="f7f6302c-7cb7-4cdf-997d-2924646b0a26" name="Changes" comment="Improvements.&#10;Added Error History tracker so we can still focus on input answer even after error.">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qvabbyte.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qvabbyte.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qvabbyteRBCB0.py" beforeDir="false" afterPath="$PROJECT_DIR$/qvabbyteRBCB0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +42,7 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
-  <component name="RunManager" selected="Python.ErtiChayra">
+  <component name="RunManager" selected="Python.qvabbyteRBCB0">
     <configuration name="ErtiChayra" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="qvabbyte" />
       <option name="ENV_FILES" value="" />
@@ -113,9 +111,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.qvabbyteRBCB0" />
         <item itemvalue="Python.ErtiChayra" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.qvabbyteRBCB0" />
       </list>
     </recent_temporary>
   </component>
@@ -143,20 +141,58 @@
       <option name="project" value="LOCAL" />
       <updated>1733857379939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Qvabbyte Development Start">
+      <option name="closed" value="true" />
+      <created>1744639605167</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1744639605167</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Improvements.&#10;Added Error History tracker so we can still focus on input answer even after error.">
+      <option name="closed" value="true" />
+      <created>1744643880060</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1744643880060</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Qvabbyte Development Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Qvabbyte Development Start" />
+    <MESSAGE value="Improvements.&#10;Added Error History tracker so we can still focus on input answer even after error." />
+    <option name="LAST_COMMIT_MESSAGE" value="Improvements.&#10;Added Error History tracker so we can still focus on input answer even after error." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/qvabbyteRBCB0.py</url>
-          <line>74</line>
+          <line>81</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qvabbyteRBCB0.py</url>
+          <line>191</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/qvabbyteRBCB0.py</url>
+          <line>189</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
